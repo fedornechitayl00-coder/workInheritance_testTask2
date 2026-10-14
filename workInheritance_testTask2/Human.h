@@ -10,7 +10,7 @@ public:
 	Human(std::string name, Date birthday);
 
 	std::string getName() const;
-	void setName();
+	void setName(std::string name);
 	Date getBirthdayDate() const;
 
 	void showInfo() const;
