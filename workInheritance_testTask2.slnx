@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="workInheritance_testTask2/workInheritance_testTask2.vcxproj" Id="203a279c-c50c-43aa-8649-db4dda0feaf6" />
+</Solution>
