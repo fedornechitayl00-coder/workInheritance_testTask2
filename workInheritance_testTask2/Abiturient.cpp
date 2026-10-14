@@ -13,7 +13,7 @@ Abiturient::Abiturient(std::string name, Date birthday, int course, int group, s
 
 float Abiturient::getScore() const
 {
-    return 0.0f;
+    return score;
 }
 
 void Abiturient::setScore(float score)
