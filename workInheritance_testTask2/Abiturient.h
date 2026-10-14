@@ -2,6 +2,7 @@
 #include "Student.h"
 
 class Abiturient
+	: public Student
 {
 protected:
 	float score;
