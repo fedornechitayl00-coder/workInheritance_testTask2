@@ -151,6 +151,7 @@
     <ClCompile Include="Abiturient.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="Human.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="Teacher.cpp" />
   </ItemGroup>
