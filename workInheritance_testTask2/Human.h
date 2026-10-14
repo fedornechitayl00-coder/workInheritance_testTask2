@@ -3,6 +3,7 @@
 
 class Human
 {
+protected:
 	std::string name;
 	Date birthday;
 public:
