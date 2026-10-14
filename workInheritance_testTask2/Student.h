@@ -10,7 +10,7 @@ protected:
 	std::string faculty;
 public:
 	Student();
-	Student(std::string name, Date birthday, int course, int group, std::string faculty) : Human(name, birthday);
+	Student(std::string name, Date birthday, int course, int group, std::string faculty);
 
 	int getCourse() const;
 	void setCourse(int course);
