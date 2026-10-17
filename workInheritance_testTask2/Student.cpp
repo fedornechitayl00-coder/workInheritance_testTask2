@@ -1,13 +1,17 @@
 #include "Student.h"
 
 Student::Student() {
-
+	group = 0;
+	course = 0;
+	faculty = "noname";
 }
 
 Student::Student(std::string name, Date birthday, int course, int group, std::string faculty) 
 	: Human(name, birthday) 
 {
-
+	this->group = group;
+	this->course = course;
+	this->faculty = faculty;
 }
 
 int Student::getCourse() const {

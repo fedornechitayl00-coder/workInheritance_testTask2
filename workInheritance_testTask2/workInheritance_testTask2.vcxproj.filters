@@ -30,9 +30,6 @@
     <ClInclude Include="Teacher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Inheritance(naslidyvanna)\Inheritance(naslidyvanna)\ForeignPassport.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Human.cpp">

@@ -1,14 +1,14 @@
 #pragma once
-#include "Student.h"
+#include "Human.h"
 
 class Abiturient
-	: public Student
+	: public Human
 {
 protected:
 	float score;
 public:
 	Abiturient();
-	Abiturient(std::string name, Date birthday, int course, int group, std::string faculty, float score);
+	Abiturient(std::string name, Date birthday, float score);
 	
 	float getScore() const;
 	void setScore(float score);

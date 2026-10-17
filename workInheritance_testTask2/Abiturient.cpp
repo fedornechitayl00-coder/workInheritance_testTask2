@@ -5,8 +5,8 @@ Abiturient::Abiturient()
     score = 0.0f;
 }
 
-Abiturient::Abiturient(std::string name, Date birthday, int course, int group, std::string faculty, float score)
-    : Student(name, birthday, course, group, faculty)
+Abiturient::Abiturient(std::string name, Date birthday, float score)
+    : Human(name, birthday)
 {
     this->score = score;
 }
@@ -23,6 +23,6 @@ void Abiturient::setScore(float score)
 
 void Abiturient::showInfo() const
 {
-    Student::showInfo();
+    Human::showInfo();
     std::cout << "\nScore:\t" << score << "\n";
 }
